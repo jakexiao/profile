@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background: #224941 url("./images/bg.jpg") no-repeat center center/cover;*/
+  background: #f7f7f8;
+  font-family: "Montserrat", sans-serif;
+  color: #202329;
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px; /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+h1 {
+  color: #202329;
+  font-weight: 900;
+}
+
+h3 {
+  color: #4d2d99;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline i {
+  /* display: inline-block; */
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+.btn-green {
+  display: inline-block;
+  color: #4d2d99;
+  background: #9afde6;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background: #4d2d99;
+  color: #9afde6;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .list-inline i {
+    /* display: inline-block; */
+    font-size: 40px;
+    color: rgb(230, 230, 230);
+  }
+}
